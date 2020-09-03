@@ -1,0 +1,21 @@
+:root {
+  --primary: #ffffff;
+  --accent: #d8d8d8;
+  --highlight: #354069;
+  --text: #39628d;
+  --line: #e2e2e2;
+  --title: #22242a;
+  --helper: #808080;
+  --rowHover: rgba(57, 98, 141, 0.05);
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

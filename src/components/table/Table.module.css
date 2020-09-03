@@ -1,0 +1,95 @@
+.container {
+  height: 618px;
+  overflow-y: scroll;
+  font-size: 1rem;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.barContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleContainer,
+.selectionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleContainer .title {
+  height: 22px;
+  width: 51px;
+  color: var(--title);
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 22px;
+  align-self: flex-start;
+}
+
+.titleContainer img {
+  height: 32px;
+  width: 40px;
+}
+
+.selectionContainer {
+  margin-right: 10px;
+}
+
+.selectionContainer .title {
+  height: 15px;
+  width: 62px;
+  color: var(--helper);
+  font-size: 0.68em;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: right;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.table {
+  background-color: var(--primary);
+  color: var(--text);
+}
+
+.table thead tr th {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.table th {
+  height: 15px;
+  width: 33px;
+  font-family: Montserrat;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+  font-size: 0.65em;
+  text-align: start;
+  padding: 15px;
+}
+
+.body tr:hover {
+  background-color: var(--rowHover);
+  cursor: pointer;
+}
+
+.body tr > * {
+  border-bottom: 1px solid var(--line);
+}
+
+.table td {
+  height: 18px;
+  width: 145px;
+  font-family: Montserrat;
+  font-size: 0.8em;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: start;
+  padding: 15px;
+  white-space: nowrap;
+}
